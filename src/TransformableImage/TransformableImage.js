@@ -81,26 +81,10 @@ class TransformableImage extends Component {
           {...this.props}
           style={[this.props.style, {backgroundColor: 'transparent'}]}
           resizeMode={'contain'}
-          onLoadStart={this.onLoadStart.bind(this)}
-          onLoad={this.onLoad.bind(this)}
           capInsets={{left: 0.1, top: 0.1, right: 0.1, bottom: 0.1}} //on iOS, use capInsets to avoid image downsampling
         />
       </ViewTransformer>
     );
-  }
-
-  onLoadStart(e) {
-    this.props.onLoadStart && this.props.onLoadStart(e);
-    this.setState({
-      imageLoaded: false,
-    });
-  }
-
-  onLoad(e) {
-    this.props.onLoad && this.props.onLoad(e);
-    this.setState({
-      imageLoaded: true,
-    });
   }
 
   onLayout(e) {
