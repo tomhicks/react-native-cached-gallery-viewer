@@ -1,6 +1,6 @@
 {
   "name": "react-native-cached-gallery-viewer",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A cached gallery viewer for React Native",
   "main": "index.js",
   "scripts": {
@@ -10,20 +10,19 @@
     "precommit": "lint-staged"
   },
   "dependencies": {
-    "react-native-cached-image": "^1.3.4",
+    "react-native-cached-image": "ssh+git://git@github.com:calvium/react-native-cached-image.git#2583f0278aa4b687f9bc59385fdb9c63443826ac",
     "react-timer-mixin": "^0.13.3",
     "prop-types": "^15.5.10"
   },
   "devDependencies": {
     "eslint": "^3.19.0",
-    "eslint-config-calvium": "^0.3.0",
-    "flow-bin": "^0.45.0",
+    "eslint-config-calvium": "^0.3.2",
+    "flow-bin": "^0.53.0",
     "husky": "^0.13.3",
     "lint-staged": "^3.4.1"
   },
   "peerDependencies": {
-    "react": ">=15.x",
-    "react-native": ">=0.45"
+    "react-native": ">=0.49"
   },
   "lint-staged": {
     "src/**/*.js": [
