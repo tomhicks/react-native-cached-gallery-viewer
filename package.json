@@ -10,7 +10,7 @@
     "precommit": "lint-staged"
   },
   "dependencies": {
-    "react-native-cached-image": "ssh+git://git@github.com:calvium/react-native-cached-image.git#2583f0278aa4b687f9bc59385fdb9c63443826ac",
+    "react-native-cached-image": "ssh+git://git@github.com:calvium/react-native-cached-image.git#fe1c428fcfd20e7fd37cdc5f6feb04e8ea50f247",
     "react-timer-mixin": "^0.13.3",
     "prop-types": "^15.5.10"
   },
